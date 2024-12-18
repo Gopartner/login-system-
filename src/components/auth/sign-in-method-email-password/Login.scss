@@ -1,0 +1,10 @@
+// src/components/auth/Login.scss
+
+.login-form {
+  @apply transition-all duration-300 ease-in-out;
+
+  // Tambahkan efek hover atau fokus jika diperlukan
+  &:hover {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  }
+}
